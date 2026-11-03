@@ -1,0 +1,39 @@
+/* src/components/Recipe.css */
+
+.recipe {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+  color: #010101;
+  font-family: 'Inter', sans-serif;
+}
+
+.recipe h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe section {
+  margin-top: 1.5rem;
+}
+
+.recipe ul,
+.recipe ol {
+  padding-left: 1.5rem;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #ffdd57;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+}
